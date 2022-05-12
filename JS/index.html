@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Example of JS Statment</title>
+</head>
+<body onload="alert('page loaded successfully')"><!--page loading listener-->
+
+    <table class="table table-dark table-striped">
+        <thead>
+        <tr>
+            <th scope="col">Data type</th>
+            <th scope="col">Descripton</th>
+            <th scope="col">example</th>
+        </tr>
+    </thead>
+    <tr>
+        <th scope="col">String</th>
+        <th scope="col">represent textual data</th>
+        <th scope="col">"hello"</th>
+    </tr>
+    <tr>
+        <th scope="col">number</th>
+        <th scope="col">an intigner or floating point</th>
+        <th scope="col">1,1.2313</th>
+    </tr>
+    <tr>
+        <th scope="col">bright</th>
+        <th scope="col">an int with arbitrary pricision</th>
+
+    </tr>
+    <tr>
+        <th scope="col">object</th>
+    </tr>
+    </table>
+
+    <button type="button" onclick="alert ('you clicked it')">click me</button><!--button with inline js click listener and alert-->
+    <button type="button" onmouseover="alert ('you put your cursor over it')">place mouse over me</button><!--button with inline js cursor over listener and alert-->
+    <a herf="#" onmouseover="alert ('you put your cursor over the link');">place mouse over me, a link</a>
+    <input type="text" onkeydown="alert('You have pressed a key inside text input!')"><!--keyboard input listner-->
+    <textarea cols="30" onkeydown="alert('You have pressed a key inside textarea!')"></textarea>
+
+
+    <p><a herf="https://www.google.com/" target="_blank" id="mylink">google</a></p>
+    <script>
+        //select elemnts by 10 attribute
+        var link = document.getElementById("mylink")
+        //getting the attribute by value
+        var herf = link.getAttribute("href");
+        document.write(href);
+        document.write("<br>");
+
+        var target = document.getAttribute("target");
+    </script>
+    <!--script>//in file java script tag
+        var x = 5;
+        var y = 10;
+        //variables to store any type of value ie:int,bool,char...
+        var sum = x + y;//basic arithmetics
+        document.write(sum);//js output
+        /* multiline comments
+        are written like this */
+        let z = 43; //let new type of var
+        let Z = "waza"; //js is case sensetive
+        //let new = "wow"; //error because new is a "reserved" keyword
+        
+        //event handlers
+        
+    </script!-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+</body>
+</html>
