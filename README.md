@@ -55,7 +55,8 @@ CSS:
         - we refer to bootstrap attributes by using class=""
 
 JS:
-    /*onload="": page loading listener
+    /*
+    onload="": page loading listener
     onclick="": button with inline js click listener
     onmouseover="alert ('you put your cursor over it')": inline js cursor over listener and alert
     onkeydown="": keyboard input listner
