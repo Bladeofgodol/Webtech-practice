@@ -55,7 +55,7 @@ CSS:
         - we refer to bootstrap attributes by using class=""
 
 JS:
-    /*
+    makes the webpage functional
     onload="": page loading listener
     onclick="": button with inline js click listener
     onmouseover="alert ('you put your cursor over it')": inline js cursor over listener and alert
@@ -73,10 +73,11 @@ JS:
         let z = 43; //let is a new type of var
         -js is case sensetive
         //let new = "wow"; //error because new is a "reserved" keyword
-      */  
+    
 
 
 Python:
+    mostly used in the backend of the website
     print("") # print the output
     name = input('words to display') #to input by users 
     print('yourname is: \n' + name) #use + for concationation 
