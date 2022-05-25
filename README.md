@@ -55,7 +55,7 @@ CSS:
         - we refer to bootstrap attributes by using class=""
 
 JS:
-    onload="": page loading listener
+    /*onload="": page loading listener
     onclick="": button with inline js click listener
     onmouseover="alert ('you put your cursor over it')": inline js cursor over listener and alert
     onkeydown="": keyboard input listner
@@ -72,7 +72,7 @@ JS:
         let z = 43; //let is a new type of var
         -js is case sensetive
         //let new = "wow"; //error because new is a "reserved" keyword
-        
+      */  
 
 
 Python:
