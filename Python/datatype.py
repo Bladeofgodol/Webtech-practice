@@ -3,4 +3,3 @@ float_number = 69.0 # this variable naming  method is called snake method by usi
 string_name = 'wazzap'
 print(type(float_number)) #displays the datatype of the variable
 print(type(string_name))
-
